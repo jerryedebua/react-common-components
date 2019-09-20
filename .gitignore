@@ -107,6 +107,12 @@ _UpgradeReport_Files/
 /build
 /coverage
 
+# nwb
+/demo/dist
+/es
+/lib
+/umd
+
 # === Rules for XCode artifacts ===
 *.xcodeproj
 *.xcworkspace
