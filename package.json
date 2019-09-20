@@ -1,0 +1,14 @@
+{
+  "name": "react-common-components",
+  "version": "0.0.1",
+  "description": "Common components used with React apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [ "react" ],
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0"
+  }
+}
