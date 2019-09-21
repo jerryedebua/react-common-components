@@ -1,0 +1,24 @@
+sudo: required
+
+language: node_js
+node_js:
+- '12.1'
+
+install:
+- npm install
+
+script:
+- npm test
+
+after_success:
+- npm cache clean
+- sleep 5s
+
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    branch: master
+    tags: false

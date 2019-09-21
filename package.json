@@ -9,7 +9,8 @@
     "start": "nwb serve-react-demo",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
-    "test": "echo 'No test written yet' && exit 0"
+    "test": "echo 'No test written yet' && exit 0",
+    "bump-version": "npm version patch -m 'Bumped version to %s'"
   },
   "keywords": [
     "react"
