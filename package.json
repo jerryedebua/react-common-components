@@ -1,6 +1,6 @@
 {
   "name": "react-app-common-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common components used with React apps",
   "main": "es/index.js",
   "scripts": {
