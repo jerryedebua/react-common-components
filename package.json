@@ -19,6 +19,9 @@
   "devDependencies": {
     "nwb": "^0.23.0"
   },
+  "files": [
+    "es*"
+  ],
   "keywords": [
     "react"
   ],
