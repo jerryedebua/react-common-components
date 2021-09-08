@@ -2,8 +2,7 @@
   "name": "react-app-common-components",
   "version": "0.0.1",
   "description": "Common components used with React apps",
-  "main": "src/index.js",
-  "module": "es/index.js",
+  "main": "es/index.js",
   "scripts": {
     "build": "nwb build-react-component --no-demo",
     "start": "nwb serve-react-demo",
@@ -12,16 +11,16 @@
     "test": "echo 'No tests written yet' && exit 0",
     "bump-version": "npm version patch -m 'Bumped version to %s'"
   },
-  "keywords": [
-    "react"
-  ],
-  "license": "ISC",
   "dependencies": {
     "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "nwb": "^0.23.0",
-    "react-dom": "^16.9.0"
-  }
+    "nwb": "^0.23.0"
+  },
+  "keywords": [
+    "react"
+  ],
+  "license": "ISC"
 }

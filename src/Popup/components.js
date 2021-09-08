@@ -21,7 +21,7 @@ export const Wrapper2 = styled.div`
   justify-content: center;
   align-items: center;
   
-  min-height: 70px;
+  min-height: 60px;
   min-width: 200px;
   max-width: 80%;
 
